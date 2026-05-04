@@ -1,0 +1,148 @@
+AnnyFit Notice of acknowledgements:
+
+Portions of the Materials may utilize the following subcomponents or dependencies with separate copyright notices and license terms, the use of which is hereby acknowledged:
+
+---------------------------------------------------------
+PART 1: SEE NOTICES BELOW WITH RESPECT TO SOFTWARE FILES:
+---------------------------------------------------------
+Portions of the Materials incorporate software identified in PART 1, which is distributed with the Materials in either unmodified or modified form. Any software distributed in unmodified form remains subject to the terms and conditions set forth below, and any software distributed in modified form is subject to the license applicable to the Materials, in addition to any further limiting terms and conditions specified below:
+
+(1.A) The software available here:
+	https://github.com/Arthur151/ROMP
+under these conditions (Apache 2.0 License):
+	http://www.apache.org/licenses/LICENSE-2.0
+is being redistributed here:
+   	annyfit/losses.py
+	annyfit/utils.py
+
+(1.B) The software available here:
+	https://github.com/facebookresearch/detectron2
+under these conditions (Apache 2.0 License):
+	https://github.com/facebookresearch/detectron2/blob/main/LICENSE
+is being redistributed here:
+	annyfit/preprocess/detect_detectron2.py
+
+(1.C) The software available here:
+	https://github.com/QwenLM/Qwen3-VL
+under these conditions (Apache 2.0 License):
+	https://github.com/QwenLM/Qwen3-VL/blob/main/LICENSE
+is being redistributed here:
+	annyfit/estimate/dataloaders/ImageDatasets.py
+	annyfit/estimate/qwen-vl-finetune/
+
+(1.D) The software available here:
+	https://github.com/lm-sys/FastChat 
+under these conditions (Apache 2.0 License):
+	https://github.com/lm-sys/FastChat/blob/main/LICENSE
+is being redistributed here:
+	annyfit/estimate/qwen-vl-finetune/qwenvl/train/train_qwen.py
+
+(1.E) The software available here:
+	https://github.com/WisconsinAIVision/ViP-LLaVA 
+under these conditions (Apache 2.0 License):
+	https://github.com/WisconsinAIVision/ViP-LLaVA/blob/main/LICENSE
+is being redistributed here:
+	annyfit/estimate/qwen-vl-finetune/qwenvl/data/prepare_json.py
+
+(1.F) The software available here:
+	https://github.com/hongsukchoi/HSfM_RELEASE 
+under these conditions (MIT License):
+	https://github.com/hongsukchoi/HSfM_RELEASE/blob/main/LICENSE
+is being redistributed here:
+	annyfit/preprocess/get_2dkps_vitpose_annyfy.py
+
+(1.G) The software available here:
+	https://github.com/ViTAE-Transformer/ViTPose
+under these conditions (Apache 2.0 License):
+	https://github.com/ViTAE-Transformer/ViTPose/blob/main/LICENSE
+is being redistributed here:
+	annyfit/preprocess/preprocess_configs/
+
+(1.H) The software available here:
+	https://github.com/huggingface/transformers
+under these conditions (Apache 2.0 License):
+	https://github.com/huggingface/transformers/blob/main/LICENSE
+is being redistributed here:
+	anny-fit/estimate/dataloaders/ImageDatasets.py
+
+-----------------------------------------------------
+PART 2: SEE NOTICES BELOW WITH RESPECT TO SUBMODULES:
+-----------------------------------------------------
+
+Portions of the Materials include retrievable submodules listed in this PART 2 are available under the following terms and conditions:
+
+(2.A) CameraHMR: https://github.com/pixelite1201/CameraHMR/?tab=readme-ov-file
+is made available under the following license
+https://camerahmr.is.tue.mpg.de/license.html
+Attribution: "CameraHMR: Aligning People with Perspective" https://arxiv.org/abs/2411.08128
+
+(2.B) Grounded SAM 2: https://github.com/IDEA-Research/Grounded-SAM-2
+is made available under the following license (Apache 2.0)
+https://github.com/IDEA-Research/Grounded-SAM-2/blob/main/LICENSE_sam2
+
+(2.C) UniDepthv2: https://github.com/lpiccinelli-eth/UniDepth
+is made available under the following license (CC BY-NC 4.0)
+https://github.com/lpiccinelli-eth/UniDepth/blob/main/LICENSE
+Attribution: "UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler" https://arxiv.org/abs/2502.20110 &
+             "UniDepth: Universal Monocular Metric Depth Estimation" https://arxiv.org/abs/2403.18913
+
+(2.D) ViTPose: https://github.com/ViTAE-Transformer/ViTPose
+is made available under the following license (Apache 2.0)
+https://github.com/ViTAE-Transformer/ViTPose/blob/main/LICENSE
+
+(2.E) Multi-HMR: https://github.com/naver/multi-hmr
+is made available under the following license
+https://github.com/naver/multi-hmr/blob/master/LICENSE.txt
+
+(2.F) COCO-WholeBody: https://github.com/jin-s13/COCO-WholeBody
+is made available under the following license
+https://github.com/jin-s13/COCO-WholeBody#terms-of-use
+
+------------------------------------------------------
+PART 3: SEE NOTICES BELOW WITH RESPECT TO IMAGE FILES:
+------------------------------------------------------
+
+Portions of the Materials include images listed in this PART 3 that are available under the following terms under which they were originally distributed:
+
+(3.A) The image files available here: 
+   https://www.pexels.com/photo/2-babies-wearing-white-headdress-white-holding-white-plush-toys-36039/
+     Attribution: Pixabay
+   https://www.pexels.com/photo/photo-of-boy-jumping-beside-girl-2624875/
+     Attribution: Daniel Jurin
+   https://www.pexels.com/photo/a-father-playing-wooden-blocks-with-his-son-7301367/
+     Attribution: Ksenia Chernaya
+   https://www.pexels.com/photo/kids-standing-near-the-white-wall-while-holding-blank-white-paper-6964689/
+     Attribution:  Anastasia Shuraeva
+are made available under the following license:
+   https://www.pexels.com/license/
+
+(3.B) The image file entitled 001075.jpg is available in the OCHuman dataset here:
+   https://github.com/liruilong940607/OCHumanApi
+     Attribution: "Pose2Seg: Detection Free Human Instance Segmentation" https://arxiv.org/abs/1803.10683
+is made available under the following license:
+   https://github.com/liruilong940607/OCHumanApi/blob/master/LICENSE
+
+(3.C) The image file entitled 110362.jpg is available in the AI Challenger dataset here:
+   https://github.com/AIChallenger/AI_Challenger_2017
+     Attribution: Copyright 2017 challenger.ai
+is made available under the following license:
+   https://github.com/AIChallenger/AI_Challenger_2017/blob/master/Baselines/LICENSE
+
+------------------------------------------------------------
+PART 4: SEE NOTICES BELOW WITH RESPECT TO KEY POINT FORMATS:
+------------------------------------------------------------
+
+Portions of the Materials listed in this PART 4 make use of the following key point file formats:
+
+(4.A) COCO-WholeBody Annotation File Format:
+    https://github.com/jin-s13/COCO-WholeBody/blob/master/data_format.md
+    is made available under the following license:
+    https://github.com/jin-s13/COCO-WholeBody#terms-of-use
+    
+(4.B) CameraHMR dense keypoints:
+    https://github.com/pixelite1201/CameraHMR/
+    is made available under the following license:
+    https://camerahmr.is.tue.mpg.de/license.html
+
+
+

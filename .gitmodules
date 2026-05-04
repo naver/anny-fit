@@ -1,0 +1,16 @@
+[submodule "submodules/Grounded-SAM-2"]
+	path = submodules/Grounded-SAM-2
+	url = https://github.com/laubravo/Grounded-SAM-2.git
+[submodule "submodules/ViTPose"]
+	path = submodules/ViTPose
+	url = https://github.com/ViTAE-Transformer/ViTPose.git
+[submodule "submodules/UniDepth"]
+	path = submodules/UniDepth
+	url = https://github.com/laubravo/UniDepth.git
+[submodule "submodules/multi-hmr"]
+	path = submodules/multi-hmr
+	url = https://github.com/laubravo/multi-hmr_anyfits.git
+[submodule "submodules/CameraHMR"]
+	path = submodules/CameraHMR
+	url = https://github.com/pixelite1201/CameraHMR.git
+	ignore = dirty
