@@ -3,11 +3,9 @@
 Official code for **Anny-Fit: All-age Human Mesh Recovery** accepted at CVPR 2026 Findings \
 [Laura Bravo-Sánchez](https://laubravo.github.io), [Matthieu Armando](https://europe.naverlabs.com/people_user_naverlabs/matthieu-armando/), [Romain Brégier](https://rbregier.github.io), [Grégory Rogez](https://europe.naverlabs.com/people_user_naverlabs/gregory-rogez/), [Serena Yeung-Levy](https://marvl.stanford.edu/people.html), [Fabien Baradel](https://fabienbaradel.github.io)
 
-<p align="left">
-  <b>Paper</b> (coming soon) &nbsp;&nbsp;
-  <b>Project Page</b> (coming soon) &nbsp;&nbsp;
-  <b>arXiv</b> (coming soon)
-</p>
+[![ArXiv](https://img.shields.io/badge/arXiv-2605.04728-33cb56)](https://arxiv.org/abs/2605.04728)
+[![PDF](https://img.shields.io/badge/PDF-Download-red)](https://arxiv.org/pdf/2605.04728.pdf)
+[![CVPR 2026 Findings](https://img.shields.io/badge/CVPR%202026-Findings%20Track-blue)](https://cvpr.thecvf.com/)
 
 <p align="center">
 <img src="assets/cover.webp" width="100%">
