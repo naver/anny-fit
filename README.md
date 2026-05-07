@@ -15,7 +15,7 @@ Our method recovers multi-person 3D human meshes from all ages directly in camer
 
 
 ## News
-- **206/05/05** — Code released
+- **2026/05/05** — Code released
 
 ---
 
