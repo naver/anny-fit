@@ -5,7 +5,7 @@ Official code for **Anny-Fit: All-age Human Mesh Recovery** accepted at CVPR 202
 
 [![ArXiv](https://img.shields.io/badge/arXiv-2605.04728-33cb56)](https://arxiv.org/abs/2605.04728)
 [![PDF](https://img.shields.io/badge/PDF-Download-red)](https://arxiv.org/pdf/2605.04728.pdf)
-[![CVPR 2026 Findings](https://img.shields.io/badge/CVPR%202026-Findings%20Track-blue)](https://cvpr.thecvf.com/)
+[![CVPR 2026 Findings](https://img.shields.io/badge/CVPR%202026-Findings%20Track-blue)](https://openaccess.thecvf.com/content/CVPR2026F/html/Bravo-Sanchez_All-Age_Human_Mesh_Recovery_CVPRF_2026_paper.html)
 
 <p align="center">
 <img src="assets/cover.webp" width="100%">
@@ -68,17 +68,12 @@ Code is provided under the terms of this [LICENSE](LICENSE.txt) and accompanying
 ## Citation
 If you find our paper or code useful you can cite our work with:
 ```
-@inproceedings{anny-fit2026,
-    title={Anny-Fit: All-age Human Mesh Recovery},
-    author={Bravo-S{\'a}nchez, Laura and
-            Armando, Matthieu and
-            Br{\'e}gier, Romain and 
-            Rogez, Gr{\'e}gory and
-            Yeung-Levy, Serena and
-            Baradel, Fabien
-            },
-    booktitle={CVPR Findings},
-    year={2026}
+@inproceedings{bravo2026all,
+  title={All-Age Human Mesh Recovery},
+  author={Bravo-S{\'a}nchez, Laura and Armando, Matthieu and Br{\'e}gier, Romain and Rogez, Gr{\'e}gory and Yeung-Levy, Serena and Baradel, Fabien},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3677--3687},
+  year={2026}
 }
 ```
 ---
