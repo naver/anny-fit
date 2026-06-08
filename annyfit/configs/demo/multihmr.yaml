@@ -1,0 +1,59 @@
+# Logger configuration
+logger:
+  _target_: pytorch_lightning.loggers.TensorBoardLogger
+  save_dir: "../demo/results"
+  name: "annyfit"
+  version: ""
+logger_enabled: true
+
+# Optimization stages
+stages:
+- {name: "Stage1_TransOrdering", epochs: 100, params: ["root_translation_params"], loss_weights: {"pose_init_weight": 10.0, "shape_init_weight": 10.0, "verts_init_weight": 0.0, "depth_weight": 0.0, "kp_depth_weight": 0.0, "ordering_depth_weight": 10.0}, ignore_params: ["face", "fingertoe"]}
+- {name: "Stage2_TransOrderingRotShape", epochs: 100, params: ["root_translation_params", "root_rotation_params", "shape_params"], loss_weights: {"pose_init_weight": 10.0, "shape_init_weight": 0.01, "verts_init_weight": 0.01, "depth_weight": 0.0, "kp_depth_weight": 0.0, "ordering_depth_weight": 50.0}, ignore_params: ["face", "fingertoe"]}
+- {name: "Stage3_TransOrderingRotShapeBody", epochs: 200, params: ["joints_rotation_params", "root_rotation_params", "root_translation_params", "shape_params"], loss_weights: {"pose_init_weight": 0.01, "shape_init_weight": 5.0, "verts_init_weight": 0.01, "depth_weight": 0.0, "kp_depth_weight": 0.0, "ordering_depth_weight": 0.0}, ignore_params: ["face", "fingertoe"]}
+
+# Initialization settings
+init:
+  use_vlm_shape: True
+  use_pred_fov: True
+
+# Optimizer settings
+optimizer:
+  lr: 0.001
+  param_groups:
+    root_rotation_params_lr: 0.01
+    joints_rotation_params_lr: 0.001
+    root_translation_params_lr: 0.01
+    shape_params_lr: 0.001
+    depth_params_lr: 0.01
+    kp_depth_params_lr: 0.01
+
+# Loss weights
+loss:
+  pose_init_weight: 0.0
+  shape_init_weight: 0.0
+  verts_init_weight: 0.0
+  depth_weight: 0.0
+  kp_depth_weight: 0.0
+  ordering_depth_weight: 0.0
+  keypoints_2d:
+    sigma: 100
+    weight: 0.01
+    min_conf: 0.5
+  dense_kp:
+    sigma: 100
+    weight: 0.001
+  shape_attribute:
+    weight: 10.0
+
+# Camera settings
+camera:
+  fov: 60
+
+# Data paths
+data:
+  dataset_folder: ../demo/person_dataset_10_headcrop
+  mesh_folder: ../demo/multihmr_multiHMR_672_L_anny
+# Visualization settings
+vis:
+  step: 1000
